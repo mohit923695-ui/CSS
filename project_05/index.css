@@ -1,0 +1,41 @@
+    *{
+            margin: 0; padding: 0;
+        }
+        nav a{
+            text-decoration: none;
+            margin-left: px;
+            padding: 50px;
+        }
+        header{
+            background-color: chartreuse;
+
+        }
+        #mohit{
+            height: 30px;
+            background-color: coral;
+            border-radius:  40px;
+            text-align: center;
+        }
+        .box{
+            height:100px;
+            width: 100px;
+            color: black;
+            background-color: crimson;
+            margin: 10px;
+            text-align: center;
+            display: inline-block;
+        }
+        #container{
+            border: 3px solid black;
+        }
+        .box{
+            right: 10px;
+            position: fixed;
+
+        }
+        footer{
+            position: fixed;
+            bottom: 3px;
+            background-color: lightgreen;
+
+        }
