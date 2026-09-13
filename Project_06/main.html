@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 6</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+    *{
+        margin: 0; padding: 0;
+    }
+        nav a {
+            padding: 40px;
+            text-decoration: none;
+        }
+        header{
+            background-color: aquamarine;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 5px;
+
+        }
+        img{
+            height: 100px;
+        }
+        #image_container{
+            height: 200px;
+            border:5px solid red;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        #box_container{
+            height: 90px;
+            background-color: cyan;
+            border: 3px solid black;
+            display: flex;
+            justify-content: space-around;
+
+        }
+        .box{
+            height: 50px; width: 50px;
+            margin: 1px;
+            background-color: indianred;
+        
+        }
+        #box1{ background-color: blue;}
+        #box2{ background-color: darkgoldenrod;
+        flex-shrink: 1;
+        flex-grow: 1;
+        }
+        #box3{ background-color: sienna;}
+        #media{
+            height: 50px; width: 50px;
+            background-color: darksalmon;
+            margin: 2px;
+            border: 2px solid black;
+        }
+        @media screen and (min-width: 300px) {
+            #media{
+                background-color: darkcyan;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+   <header>
+            <nav>
+                <a href="#">home</a>
+                <a href="#">product</a>
+                <a href="#">contect</a>
+                <a href="#">support</a>
+            </nav>
+   </header>
+   <main>
+    <div id="image_container">
+        <img src="india.jpg" alt="map of india ">
+
+    </div>
+    <div id="box_container">
+        <div id="box1" class="box">box 1 </div>
+        <div id="box2" class="box">box 2</div>
+        <div id="box3" class="box">box 3</div>
+    </div>
+    <div id="media">media box</div>
+   </main>
+</body>
+</html>
