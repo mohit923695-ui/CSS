@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rotate</title>
+    <style>
+        .box{
+            height: 50px; width: 50px;
+            background-color: darkgreen;
+            border: 2px solid firebrick;
+            top: 100px;
+            left: 100px;
+            transform: rotate(45deg);
+            align-items: center;
+
+            transition: all 2s  ease-in-out 1s;
+        }
+        .box:hover{
+            background-color: mediumorchid;
+            transform: rotate(135deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">rotate</div>
+</body>
+</html>
