@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale</title>
+
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            height: 50px;
+            width: 50px;
+            background-color: darkgreen;
+            border: 2px solid firebrick;
+
+            transform: rotate(45deg);
+
+            transition: all 2s ease-in-out 1s;
+        }
+
+        .box:hover {
+            background-color: mediumorchid;
+            transform: scale(2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">scale</div>
+</body>
+</html>
